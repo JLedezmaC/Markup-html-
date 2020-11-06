@@ -1,0 +1,32 @@
+.header{
+    li{
+        list-style: none;
+    }a{
+        text-decoration: none;
+        color:#9c9c9c ;
+        font-weight: bold;
+    }
+}
+
+.header h2{
+    color: #606060;
+}
+
+.titulo{
+    padding: 29px 0px 29px 0px;
+    float: left;
+    color: #606060;
+    font-weight: bold;
+}
+.lista{
+    float: right;
+    padding: 38px 0px 38px 0px;
+}
+
+.menu-lista li + li{
+    margin-left: 22px;
+}
+
+.menu-lista li{
+    float: left;
+}
