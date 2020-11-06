@@ -345,7 +345,8 @@ template {
   max-width: 800px; }
 
 .background-white {
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  border-bottom: 36px solid #d1d9dd; }
 
 .first-part {
   padding-bottom: 80px; }
@@ -367,3 +368,31 @@ template {
 
 .boton-verde-first {
   text-align: center; }
+
+.background-white2 {
+  background-color: #f9f9f9; }
+
+.second-part {
+  padding-bottom: 80px; }
+
+.second-part h2 {
+  text-align: center;
+  font-size: 30px; }
+
+.second-part p {
+  text-align: center;
+  margin-bottom: 32px; }
+
+.second-button {
+  text-decoration: none;
+  color: white;
+  background-color: #f5ba1c;
+  border-radius: 1px;
+  padding: 12px 27px 12px 27px;
+  font-size: 15px; }
+
+.boton-amarillo-second {
+  text-align: center; }
+
+.background-white3 {
+  border-top: 36px solid #d1d9dd; }
