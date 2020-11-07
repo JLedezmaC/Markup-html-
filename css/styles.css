@@ -310,11 +310,11 @@ template {
   text-decoration: none;
   color: #9c9c9c;
   font-weight: bold;
-  font-size: 10px; }
+  font-size: 0.625rem; }
 
 .header h2 {
   color: #606060;
-  font-size: 16px; }
+  font-size: 1rem; }
 
 .titulo {
   padding: 28px 0px 28px 0px;
@@ -331,10 +331,11 @@ template {
 
 .menu-lista li {
   float: left;
-  font-size: 16px; }
+  font-size: 1rem; }
 
 html {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; }
 
 .clearfix::after {
   content: "";
@@ -367,10 +368,10 @@ html {
 .first-button {
   text-decoration: none;
   color: white;
-  background-color: #7bb84f;
   border-radius: 1px;
   padding: 12px 27px 12px 27px;
-  font-size: 15px; }
+  font-size: 0.937rem;
+  background-color: #7bb84f; }
 
 .boton-verde-first {
   text-align: center; }
@@ -383,7 +384,7 @@ html {
 
 .second-part h2 {
   text-align: center;
-  font-size: 30px; }
+  font-size: 1.875rem; }
 
 .second-part p {
   text-align: center;
@@ -392,10 +393,10 @@ html {
 .second-button {
   text-decoration: none;
   color: white;
-  background-color: #f5ba1c;
   border-radius: 1px;
   padding: 12px 27px 12px 27px;
-  font-size: 15px; }
+  font-size: 0.937rem;
+  background-color: #f5ba1c; }
 
 .boton-amarillo-second {
   text-align: center; }
@@ -418,7 +419,7 @@ html {
   width: 240px;
   padding: 30px 20px 50px 40px;
   line-height: 20px;
-  font-size: 14px; }
+  font-size: 0.875rem; }
 
 .contenido2 {
   float: left;
@@ -427,7 +428,7 @@ html {
   width: 240px;
   padding: 25px 20px 50px 40px;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: right; }
 
 .green-plant {
@@ -439,7 +440,7 @@ html {
   width: 240px;
   padding: 30px 20px 50px 40px;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: left;
   float: right; }
 
@@ -452,7 +453,7 @@ html {
   width: 240px;
   padding: 30px 20px 68px 40px;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: right;
   float: left;
   margin-bottom: 30px; }
@@ -463,10 +464,10 @@ html {
 .third-button {
   text-decoration: none;
   color: white;
-  background-color: #40aceb;
   border-radius: 1px;
   padding: 12px 27px 12px 27px;
-  font-size: 15px; }
+  font-size: 0.937rem;
+  background-color: #40aceb; }
 
 .our-gallery {
   text-align: center;
@@ -477,15 +478,15 @@ html {
 
 .our-gallery p {
   color: #68696c;
-  font-size: 16px; }
+  font-size: 1rem; }
 
 .fourth-button {
   text-decoration: none;
-  color: #45474e;
-  background-color: #f9f9f9;
+  color: white;
   border-radius: 1px;
   padding: 12px 27px 12px 27px;
-  font-size: 15px; }
+  font-size: 0.937rem;
+  background-color: #f9f9f9; }
 
 .boton-azul {
   text-align: center;
@@ -526,7 +527,7 @@ html {
   background-color: #e02d74;
   border-radius: 1px;
   padding: 18px 32px 18px 32px;
-  font-size: 15px; }
+  font-size: 0.937rem; }
 
 .footer-p {
   color: #8f8f8f;
