@@ -8,16 +8,12 @@
 
 .our-gallery p{
     color: #68696c;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .fourth-button{
-    text-decoration: none;
-    color: #45474e;
+    @include ancords;
     background-color:$gray-color;;
-    border-radius: 1px;
-    padding: 12px 27px 12px 27px;
-    font-size: 15px;
 }
 .boton-azul{
     text-align: center;
@@ -38,11 +34,11 @@
 }
 
 .fourth-part{
-    border-top: 36px solid #d1d9dd;
+    border-top:$border;
 }
 
 .fifth-part{
-    border-top: 36px solid #d1d9dd;
+    border-top: $border;
     background-color: $gray-color;;
     padding-bottom: 80px;
 }
@@ -65,7 +61,7 @@
     background-color: #e02d74;
     border-radius: 1px;
     padding: 18px 32px 18px 32px;
-    font-size: 15px;
+    font-size: 0.937rem;
 }
 
 .footer-p{

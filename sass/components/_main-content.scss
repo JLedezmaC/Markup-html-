@@ -1,5 +1,6 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .clearfix::after{
@@ -36,12 +37,8 @@ html{
 }
 
 .first-button{
-    text-decoration: none;
-    color: white;
+    @include ancords;
     background-color: #7bb84f;
-    border-radius: 1px;
-    padding: 12px 27px 12px 27px;
-    font-size: 15px;
 }
 
 .boton-verde-first{
@@ -57,7 +54,7 @@ html{
 }
 .second-part h2{
     text-align: $align;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 .second-part p {
     text-align: $align;
@@ -65,12 +62,8 @@ html{
 }
 
 .second-button{
-    text-decoration: none;
-    color: white;
+    @include ancords;
     background-color: #f5ba1c;
-    border-radius: 1px;
-    padding: 12px 27px 12px 27px;
-    font-size: 15px;
 }
 
 .boton-amarillo-second{
@@ -78,7 +71,7 @@ html{
 }
 
 .background-white3{
-    border-top: 36px solid #d1d9dd;
+    border-top:$border;
     padding-bottom: 60px;
 }
 
@@ -97,7 +90,7 @@ html{
     width: $width-content;
     padding: 30px 20px 50px 40px;
     line-height:20px;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .contenido2{
@@ -107,7 +100,7 @@ html{
     width: $width-content;
     padding: 25px 20px 50px 40px;
     line-height:20px;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: $float-R;
 }
 
@@ -120,7 +113,7 @@ html{
     width: $width-content;
     padding: 30px 20px 50px 40px;
     line-height:20px;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: $float-L;
     float: $float-R;
 }
@@ -133,7 +126,7 @@ html{
     width: $width-content;
     padding: 30px 20px 68px 40px;
     line-height:20px;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: $float-R;
     float: $float-L;
     margin-bottom: 30px ;
@@ -143,10 +136,7 @@ html{
     text-align: $align;
 }
 .third-button{
-    text-decoration: none;
-    color: white;
+    @include ancords;
     background-color: #40aceb;
-    border-radius: 1px;
-    padding: 12px 27px 12px 27px;
-    font-size: 15px;
+
 }
