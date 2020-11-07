@@ -79,6 +79,7 @@ html{
 
 .background-white3{
     border-top: 36px solid #d1d9dd;
+    padding-bottom: 60px;
 }
 
 .newsroom{
@@ -86,20 +87,56 @@ html{
     padding-top: 30px;
 }
 
+.mock-book{
+    float: left;
+}
 .contenido1{
     background-color: #0071bd;
     color: #f9f9f9;
     float: right;
+    width: 240px;
+    padding: 30px 20px 50px 40px;
+    line-height:20px;
+    font-size: 14px;
 }
 
 .contenido2{
+    float: left;
     background-color: #a4d3f3;
     color:  #f9f9f9;
+    width: 240px;
+    padding: 25px 20px 50px 40px;
+    line-height:20px;
+    font-size: 14px;
+    text-align: right;
 }
 
+.green-plant{
+    float: right;
+}
 .contenido3{
     background-color: #333c4d;
     color: #f9f9f9;
+    width: 240px;
+    padding: 30px 20px 50px 40px;
+    line-height:20px;
+    font-size: 14px;
+    text-align: left;
+    float: right;
+}
+.open-book{
+    float: left
+}
+.contenido4{
+    background-color: #76b3dd;
+    color: #f9f9f9;
+    width: 240px;
+    padding: 30px 20px 68px 40px;
+    line-height:20px;
+    font-size: 14px;
+    text-align: right;
+    float: left;
+    margin-bottom: 30px ;
 }
 
 .boton-lightblue-third{
