@@ -5,11 +5,13 @@
         text-decoration: none;
         color:#9c9c9c ;
         font-weight: bold;
+        font-size: 10px;
     }
 }
 
 .header h2{
     color: #606060;
+    font-size: 16px;
 }
 
 .titulo{
@@ -20,7 +22,7 @@
 }
 .lista{
     float: right;
-    padding: 38px 0px 38px 0px;
+    padding: 27px 0px 27px 0px;
 }
 
 .menu-lista li + li{
@@ -29,4 +31,5 @@
 
 .menu-lista li{
     float: left;
+    font-size: 16px;
 }
