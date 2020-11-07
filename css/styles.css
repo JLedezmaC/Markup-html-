@@ -527,3 +527,14 @@ html {
   border-radius: 1px;
   padding: 18px 32px 18px 32px;
   font-size: 15px; }
+
+.footer-p {
+  color: #8f8f8f;
+  float: left; }
+
+.footer-p a {
+  color: #8f8f8f; }
+
+.footer-images {
+  float: right;
+  padding-top: 15px; }

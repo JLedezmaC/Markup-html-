@@ -20,7 +20,7 @@ html{
 }
 
 .background-white{
-    background-color: #f9f9f9;
+    background-color: $gray-color;
     border-bottom: 36px solid #d1d9dd;
 }
 
@@ -28,10 +28,10 @@ html{
     padding-bottom: 80px;
 }
 .first-part h1{
-    text-align: center;
+    text-align: $align;
 }
 .first-part p {
-    text-align: center;
+    text-align: $align;
     margin-bottom: 32px;
 }
 
@@ -45,22 +45,22 @@ html{
 }
 
 .boton-verde-first{
-    text-align: center;
+    text-align: $align;
 }
 
 .background-white2{
-    background-color: #f9f9f9;
+    background-color: $gray-color;;
 }
 
 .second-part{
     padding-bottom: 80px;
 }
 .second-part h2{
-    text-align: center;
+    text-align: $align;
     font-size: 30px;
 }
 .second-part p {
-    text-align: center;
+    text-align: $align;
     margin-bottom: 32px;
 }
 
@@ -74,7 +74,7 @@ html{
 }
 
 .boton-amarillo-second{
-    text-align: center;
+    text-align: $align;
 }
 
 .background-white3{
@@ -83,64 +83,64 @@ html{
 }
 
 .newsroom{
-    text-align: center;
+    text-align: $align;
     padding-top: 30px;
 }
 
 .mock-book{
-    float: left;
+    float: $float-L;
 }
 .contenido1{
     background-color: #0071bd;
-    color: #f9f9f9;
-    float: right;
-    width: 240px;
+    color: $gray-color;;
+    float: $float-R;
+    width: $width-content;
     padding: 30px 20px 50px 40px;
     line-height:20px;
     font-size: 14px;
 }
 
 .contenido2{
-    float: left;
+    float: $float-L;
     background-color: #a4d3f3;
-    color:  #f9f9f9;
-    width: 240px;
+    color: $gray-color;;
+    width: $width-content;
     padding: 25px 20px 50px 40px;
     line-height:20px;
     font-size: 14px;
-    text-align: right;
+    text-align: $float-R;
 }
 
 .green-plant{
-    float: right;
+    float: $float-R;
 }
 .contenido3{
     background-color: #333c4d;
-    color: #f9f9f9;
-    width: 240px;
+    color: $gray-color;;
+    width: $width-content;
     padding: 30px 20px 50px 40px;
     line-height:20px;
     font-size: 14px;
-    text-align: left;
-    float: right;
+    text-align: $float-L;
+    float: $float-R;
 }
 .open-book{
-    float: left
+    float: $float-L
 }
 .contenido4{
     background-color: #76b3dd;
-    color: #f9f9f9;
-    width: 240px;
+    color: $gray-color;;
+    width: $width-content;
     padding: 30px 20px 68px 40px;
     line-height:20px;
     font-size: 14px;
-    text-align: right;
-    float: left;
+    text-align: $float-R;
+    float: $float-L;
     margin-bottom: 30px ;
 }
 
 .boton-lightblue-third{
-    text-align: center;
+    text-align: $align;
 }
 .third-button{
     text-decoration: none;

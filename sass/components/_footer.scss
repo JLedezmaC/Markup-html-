@@ -3,7 +3,7 @@
     padding-top: 30px;
 }
 .our-gallery h2{
-    color: #f9f9f9;
+    color:$gray-color;;
 }
 
 .our-gallery p{
@@ -14,7 +14,7 @@
 .fourth-button{
     text-decoration: none;
     color: #45474e;
-    background-color: #f9f9f9;
+    background-color:$gray-color;;
     border-radius: 1px;
     padding: 12px 27px 12px 27px;
     font-size: 15px;
@@ -30,7 +30,7 @@
 }
 
 .fourth-images{
-    text-align: center;
+    text-align: $align;
 }
 
 .forth-images img+img{
@@ -43,19 +43,19 @@
 
 .fifth-part{
     border-top: 36px solid #d1d9dd;
-    background-color: #f9f9f9;
+    background-color: $gray-color;;
     padding-bottom: 80px;
 }
 
 .fifththpart-2{
-    text-align: center;
+    text-align: $align;
     padding-top: 30px;
 }
 .footer-pink{
-    text-align: center;
+    text-align: $align;
 }
 .fifththpart-2 p{
-    color:#8f8f8f ;
+    color:$black-gray-color ;
     margin-bottom: 50px;
 }
 
@@ -66,4 +66,18 @@
     border-radius: 1px;
     padding: 18px 32px 18px 32px;
     font-size: 15px;
+}
+
+.footer-p{
+    color:$black-gray-color ;
+    float: $float-L;
+}
+
+.footer-p a {
+    color: $black-gray-color;
+}
+
+.footer-images{
+    float: $float-R;
+    padding-top: 15px;
 }
