@@ -6,6 +6,14 @@
     font-size: 0.937rem;
 }
 
+@mixin ancords1 {
+    text-decoration: none;
+    color: black;
+    border-radius: 1px;
+    padding: 12px 27px 12px 27px;
+    font-size: 0.937rem;
+}
+
 @mixin name {
     
 }

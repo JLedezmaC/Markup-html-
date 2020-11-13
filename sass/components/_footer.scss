@@ -12,7 +12,7 @@
 }
 
 .fourth-button{
-    @include ancords;
+    @include ancords1;
     background-color:$gray-color;;
 }
 .boton-azul{
@@ -29,16 +29,16 @@
     text-align: $align;
 }
 
-.forth-images img+img{
+.fourth-images img+img{
     padding: 3px;
 }
 
 .fourth-part{
-    border-top:$border;
+    margin-top: 35px;
 }
 
 .fifth-part{
-    border-top: $border;
+    margin-top: 35px;
     background-color: $gray-color;;
     padding-bottom: 80px;
 }

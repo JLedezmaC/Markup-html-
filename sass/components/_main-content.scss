@@ -1,3 +1,7 @@
+body{
+    background-color: #eaeced;
+}
+
 html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -22,7 +26,11 @@ html{
 
 .background-white{
     background-color: $gray-color;
-    border-bottom: 36px solid #d1d9dd;
+    margin-bottom: 35px;
+}
+
+.background-white3 img {
+    display: block;
 }
 
 .first-part{
@@ -51,6 +59,8 @@ html{
 
 .second-part{
     padding-bottom: 80px;
+    background-color: #f9f9f9;
+    margin-bottom: 35px;
 }
 .second-part h2{
     text-align: $align;
@@ -71,7 +81,7 @@ html{
 }
 
 .background-white3{
-    border-top:$border;
+    background-color: #f9f9f9;
     padding-bottom: 60px;
 }
 
@@ -124,7 +134,7 @@ html{
     background-color: #76b3dd;
     color: $gray-color;;
     width: $width-content;
-    padding: 30px 20px 68px 40px;
+    padding: 30px 20px 71px 40px;
     line-height:20px;
     font-size: 0.875rem;
     text-align: $float-R;

@@ -333,6 +333,9 @@ template {
   float: left;
   font-size: 1rem; }
 
+body {
+  background-color: #eaeced; }
+
 html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px; }
@@ -353,7 +356,10 @@ html {
 
 .background-white {
   background-color: #f9f9f9;
-  border-bottom: 36px solid #d1d9dd; }
+  margin-bottom: 35px; }
+
+.background-white3 img {
+  display: block; }
 
 .first-part {
   padding-bottom: 80px; }
@@ -380,7 +386,9 @@ html {
   background-color: #f9f9f9; }
 
 .second-part {
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  background-color: #f9f9f9;
+  margin-bottom: 35px; }
 
 .second-part h2 {
   text-align: center;
@@ -402,7 +410,7 @@ html {
   text-align: center; }
 
 .background-white3 {
-  border-top: 36px solid #d1d9dd;
+  background-color: #f9f9f9;
   padding-bottom: 60px; }
 
 .newsroom {
@@ -451,7 +459,7 @@ html {
   background-color: #76b3dd;
   color: #f9f9f9;
   width: 240px;
-  padding: 30px 20px 68px 40px;
+  padding: 30px 20px 71px 40px;
   line-height: 20px;
   font-size: 0.875rem;
   text-align: right;
@@ -482,7 +490,7 @@ html {
 
 .fourth-button {
   text-decoration: none;
-  color: white;
+  color: black;
   border-radius: 1px;
   padding: 12px 27px 12px 27px;
   font-size: 0.937rem;
@@ -499,14 +507,14 @@ html {
 .fourth-images {
   text-align: center; }
 
-.forth-images img + img {
+.fourth-images img + img {
   padding: 3px; }
 
 .fourth-part {
-  border-top: 36px solid #d1d9dd; }
+  margin-top: 35px; }
 
 .fifth-part {
-  border-top: 36px solid #d1d9dd;
+  margin-top: 35px;
   background-color: #f9f9f9;
   padding-bottom: 80px; }
 
