@@ -1,7 +1,8 @@
-@import "./components/config/normalize";
-@import "./components/config/settings";
-@import "./components/config/mixin";
-@import "./components/partials/header";
-@import "./components/partials/main-content";
-@import"./components/partials/footer";
-@import "./components/partials/central";
+@import "./config/normalize";
+@import "./config/settings";
+@import "./config/mixin";
+@import "./partials/global";
+@import "./partials/header";
+@import "./partials/main-content";
+@import"./partials/footer";
+@import "./partials/central";

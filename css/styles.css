@@ -303,36 +303,6 @@ template {
 [hidden] {
   display: none; }
 
-.header li {
-  list-style: none; }
-
-.header a {
-  text-decoration: none;
-  color: #9c9c9c;
-  font-weight: bold;
-  font-size: 0.625rem; }
-
-.header h2 {
-  color: #606060;
-  font-size: 1rem; }
-
-.titulo {
-  padding: 28px 0px 28px 0px;
-  float: left;
-  color: #606060;
-  font-weight: bold; }
-
-.lista {
-  float: right;
-  padding: 27px 0px 27px 0px; }
-
-.menu-lista li + li {
-  margin-left: 22px; }
-
-.menu-lista li {
-  float: left;
-  font-size: 1rem; }
-
 body {
   background-color: #eaeced; }
 
@@ -354,6 +324,37 @@ html {
   margin: 0 auto;
   max-width: 800px; }
 
+.lista li {
+  list-style: none; }
+
+.lista a {
+  text-decoration: none;
+  color: #9c9c9c;
+  font-weight: bold;
+  font-size: 1rem; }
+
+.header h2 {
+  color: #606060;
+  font-size: 1rem; }
+
+.titulo {
+  padding: 28px 0px 28px 0px;
+  float: left;
+  color: #606060;
+  font-weight: bold; }
+
+.lista {
+  float: right;
+  padding: 37px 0px 27px 0px; }
+
+.menu-lista li + li {
+  margin-left: 22px; }
+
+.menu-lista li {
+  float: left;
+  font-size: 1rem; }
+
+/*widthpadre/widthactual*100*/
 .background-white {
   background-color: #f9f9f9;
   margin-bottom: 35px; }

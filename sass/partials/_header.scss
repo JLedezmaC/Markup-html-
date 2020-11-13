@@ -1,11 +1,12 @@
-.header{
+.lista{
     li{
         list-style: none;
-    }a{
+    }
+    a{
         text-decoration: none;
         color:#9c9c9c ;
         font-weight: bold;
-        font-size: 0.625rem ;
+        font-size: 1rem ;
     }
 }
 
@@ -22,7 +23,7 @@
 }
 .lista{
     float: $float-R;
-    padding: 27px 0px 27px 0px;
+    padding: 37px 0px 27px 0px;
 }
 
 .menu-lista li + li{
@@ -33,3 +34,5 @@
     float: $float-L;
     font-size: 1rem;
 }
+
+/*widthpadre/widthactual*100*/
