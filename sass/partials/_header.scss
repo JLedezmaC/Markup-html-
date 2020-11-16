@@ -16,14 +16,14 @@
 }
 
 .titulo{
-    padding: 28px 0px 28px 0px;
+    padding: 5% 0px 5% 0px;
     float: $float-L;
     color:$dark-gray-color;
     font-weight: bold;
 }
 .lista{
     float: $float-R;
-    padding: 37px 0px 27px 0px;
+    padding: 6% 0px 4.5% 0px;
 }
 
 .menu-lista li + li{
@@ -35,4 +35,4 @@
     font-size: 1rem;
 }
 
-/*widthpadre/widthactual*100*/
+/*medida actual/widthpadre*100*/

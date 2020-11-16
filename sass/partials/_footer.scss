@@ -1,6 +1,6 @@
 .our-gallery{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 6%;
 }
 .our-gallery h2{
     color:$gray-color;;
@@ -15,10 +15,22 @@
     @include ancords1;
     background-color:$gray-color;;
 }
+
+.fourth-images{
+    max-width: 100%;
+    width: 100%;
+}
+
+.fourth-images div{
+    display: inline;
+    max-width: 100%;
+    width: 100%;
+}
+
 .boton-azul{
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 70px;
+    padding-top: 6%;
+    padding-bottom: 7%;
 }
 
 .fourth-part{
@@ -30,29 +42,29 @@
 }
 
 .fourth-images img+img{
-    padding: 3px;
+    padding: 0.5%;
 }
 
 .fourth-part{
-    margin-top: 35px;
+    margin-top: 3.64%;
 }
 
 .fifth-part{
-    margin-top: 35px;
+    margin-top: 6%;
     background-color: $gray-color;;
-    padding-bottom: 80px;
+    padding-bottom: 13%;
 }
 
 .fifththpart-2{
     text-align: $align;
-    padding-top: 30px;
+    padding-top: 6%;
 }
 .footer-pink{
     text-align: $align;
 }
 .fifththpart-2 p{
     color:$black-gray-color ;
-    margin-bottom: 50px;
+    margin-bottom: 8%
 }
 
 .footer-pink a{
@@ -75,5 +87,5 @@
 
 .footer-images{
     float: $float-R;
-    padding-top: 15px;
+    padding-top: 2.5%;
 }

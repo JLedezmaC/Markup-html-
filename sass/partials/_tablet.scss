@@ -1,1 +1,21 @@
-@media(max-width: 1023px){}
+@media(max-width: 1023px){
+    .main-wrapper{
+        position: relative;
+    }
+    .lista li{
+        display: none;
+    }
+    body{
+        background-color: cornflowerblue;
+    }
+
+    .Menu-t-p{
+        display: block;
+        position: absolute;
+        top: 43px;
+        right: 0;
+        color: cornflowerblue;
+    }
+
+    
+}

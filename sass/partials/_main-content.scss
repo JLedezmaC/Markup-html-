@@ -7,15 +7,19 @@
     display: block;
 }
 
+.first-part img{
+    max-width: 100%;
+    width: 100%;
+}
 .first-part{
-    padding-bottom: 80px;
+    padding-bottom: 13%;
 }
 .first-part h1{
     text-align: $align;
 }
 .first-part p {
     text-align: $align;
-    margin-bottom: 32px;
+    margin-bottom: 5%;
 }
 
 .first-button{
@@ -31,10 +35,14 @@
     background-color: $gray-color;;
 }
 
+.second-part img{
+    max-width: 100%;
+    width: 100%;
+}
 .second-part{
-    padding-bottom: 80px;
+    padding-bottom: 13%;
     background-color: #f9f9f9;
-    margin-bottom: 35px;
+    margin-bottom: 6%;
 }
 .second-part h2{
     text-align: $align;
@@ -42,7 +50,7 @@
 }
 .second-part p {
     text-align: $align;
-    margin-bottom: 32px;
+    margin-bottom: 6%;
 }
 
 .second-button{
@@ -56,71 +64,75 @@
 
 .background-white3{
     background-color: #f9f9f9;
-    padding-bottom: 60px;
+    padding-bottom: 10%;
 }
 
 .newsroom{
     text-align: $align;
-    padding-top: 30px;
+    padding-top: 5%;
 }
 
-.mock-book{
-    float: $float-L;
-}
 .contenido1{
     background-color: #0071bd;
     color: $gray-color;;
-    float: $float-R;
-    width: $width-content;
-    padding: 30px 20px 50px 40px;
-    line-height:20px;
+    padding: 30px 20px 50px 40px;   /*30px = 5* 8% = 50px 3.33 = 20px 40px = */
+    line-height:1.25rem;
     font-size: 0.875rem;
+    margin-left: 300px;
 }
 
 .contenido2{
-    float: $float-L;
     background-color: #a4d3f3;
     color: $gray-color;;
-    width: $width-content;
     padding: 25px 20px 50px 40px;
-    line-height:20px;
+    line-height:1.25rem;
     font-size: 0.875rem;
     text-align: $float-R;
 }
 
-.green-plant{
-    float: $float-R;
-}
+
 .contenido3{
     background-color: #333c4d;
     color: $gray-color;;
-    width: $width-content;
     padding: 30px 20px 50px 40px;
-    line-height:20px;
+    line-height:1.25rem;
     font-size: 0.875rem;
     text-align: $float-L;
-    float: $float-R;
+    margin-left: 300px;
 }
 .open-book{
-    float: $float-L
+    float: $float-L;
+    margin-bottom: 30px;
 }
 .contenido4{
     background-color: #76b3dd;
     color: $gray-color;;
-    width: $width-content;
-    padding: 30px 20px 71px 40px;
-    line-height:20px;
+    padding: 30px 20px 91px 40px;
+    line-height:1.25rem;
     font-size: 0.875rem;
     text-align: $float-R;
-    float: $float-L;
     margin-bottom: 30px ;
 }
 
-.boton-lightblue-third{
+.boton-lightblue-third {
     text-align: $align;
 }
-.third-button{
+
+.third-button  {
     @include ancords;
     background-color: #40aceb;
+}
 
+.Menu-t-p{
+    display: none;
+    width: 34px;
+}
+
+
+.third-part img{
+    max-width: 100%;
+}
+
+.part-1{
+    float: left;
 }
