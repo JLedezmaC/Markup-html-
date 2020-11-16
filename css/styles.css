@@ -578,4 +578,8 @@ html {
 
 @media (max-width: 767px) {
   body {
-    background-color: black; } }
+    background-color: black; }
+  .contenido1 {
+    margin-left: 0; }
+  .contenido3 {
+    margin-left: 0; } }
